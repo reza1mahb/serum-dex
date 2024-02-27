@@ -3,7 +3,7 @@ language: shell
 os: linux
 
 _defaults: &defaults
-  cache: false
+  cache: true
   services:
     - docker
   before_install:
